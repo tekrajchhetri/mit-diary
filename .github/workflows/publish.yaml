@@ -55,15 +55,12 @@ jobs:
     - name: Generate Pagefind search index
       run: npx pagefind --source "public"
     - name: Upload to FTP 
-      env:
-        environment: "FTP_SERVER"
-      
-      uses: pressidium/lftp-mirror-action@v1
-      with: 
-        host: ${{ secrets.FTP_SERVER_ADDRESS }}
-        user: ${{ secrets.FTP_USERNAME }}
-        pass: ${{ secrets.FTP_PASSWORD }}
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_SERVER_ADDRESS }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        protocol: ftps
+        local-dir: "./public" 
+        server-dir: ${{ secrets.SERVER_DIR }}
         port:  ${{ secrets.FTP_PORT }}
-        settings: 'sftp:auto-confirm=yes'
-        localDir: "./public"  
-        options: '--verbose'
