@@ -51,6 +51,8 @@ jobs:
     - name: Generate Pagefind search index
       run: npx pagefind --source "public"
     - name: Upload to FTP
+      env:
+        environment: FTP_SERVER
       uses: pressidium/lftp-mirror-action@v1
       with:
         run: |
