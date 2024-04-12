@@ -41,8 +41,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-hugomod-
     - name: Debug Secrets
-      env:
-        environment: "FTP_SERVER"
       run: |
         echo "FTP Server Address: ${{ secrets.FTP_SERVER_ADDRESS }}"
         echo "FTP Username: ${{ secrets.FTP_USERNAME }}"
