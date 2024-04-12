@@ -55,10 +55,10 @@ jobs:
       with:
         run: |
           echo "${{ secrets.FTP_SERVER_ADDRESS }}, ${{ secrets.FTP_USERNAME }}"
-        server: ${{ secrets.FTP_SERVER_ADDRESS }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        host: ${{ secrets.FTP_SERVER_ADDRESS }}
+        user: ${{ secrets.FTP_USERNAME }}
+        pass: ${{ secrets.FTP_PASSWORD }}
         port:  ${{ secrets.FTP_PORT }}
         settings: 'sftp:auto-confirm=yes'
-        local-dir: "./public" 
+        localDir: "./public"  
         options: '--verbose'
