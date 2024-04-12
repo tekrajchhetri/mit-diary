@@ -19,6 +19,10 @@ concurrency:
   group: "ftp-deployment"
   cancel-in-progress: false
 
+ 
+  
+
+
 jobs:
   # Build website
   build:
@@ -52,11 +56,9 @@ jobs:
       run: npx pagefind --source "public"
     - name: Upload to FTP
       env:
-        environment: FTP_SERVER
+        environment: "FTP_SERVER"
       uses: pressidium/lftp-mirror-action@v1
-      with:
-        run: |
-          echo "${{ secrets.FTP_SERVER_ADDRESS }}, ${{ secrets.FTP_USERNAME }}"
+      with: 
         host: ${{ secrets.FTP_SERVER_ADDRESS }}
         user: ${{ secrets.FTP_USERNAME }}
         pass: ${{ secrets.FTP_PASSWORD }}
