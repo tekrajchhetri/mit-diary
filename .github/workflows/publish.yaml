@@ -1,7 +1,7 @@
 name: Deploy website to FTP
 
-env:
-  WC_HUGO_VERSION: '0.123.7'
+env: 
+  environment: "FTP_SERVER"
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -38,7 +38,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: ${{ env.WC_HUGO_VERSION }}
+        hugo-version: "0.123.7"
         extended: true
     - uses: actions/cache@v3
       with:
@@ -54,9 +54,7 @@ jobs:
         hugo --minify
     - name: Generate Pagefind search index
       run: npx pagefind --source "public"
-    - name: Upload to FTP
-      env:
-        environment: "FTP_SERVER"
+    - name: Upload to FTP 
       uses: pressidium/lftp-mirror-action@v1
       with: 
         host: ${{ secrets.FTP_SERVER_ADDRESS }}
