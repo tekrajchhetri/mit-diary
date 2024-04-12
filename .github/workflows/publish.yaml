@@ -62,5 +62,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftps
         local-dir: "./public/" 
-        server-dir: ${{ secrets.SERVER_DIR }}
         port:  ${{ secrets.FTP_PORT }}
