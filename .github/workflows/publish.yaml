@@ -30,6 +30,7 @@ jobs:
       with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
+        node-version: 20
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
