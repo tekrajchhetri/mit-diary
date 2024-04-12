@@ -1,8 +1,5 @@
 name: Deploy website to FTP
 
-env: 
-  environment: "FTP_SERVER"
-
 on:
   # Trigger the workflow every time you push to the `main` branch
   push:
@@ -18,9 +15,6 @@ permissions:
 concurrency:
   group: "ftp-deployment"
   cancel-in-progress: false
-
- 
-  
 
 
 jobs:
@@ -47,6 +41,8 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-hugomod-
     - name: Debug Secrets
+      env:
+        environment: "FTP_SERVER"
       run: |
         echo "FTP Server Address: ${{ secrets.FTP_SERVER_ADDRESS }}"
         echo "FTP Username: ${{ secrets.FTP_USERNAME }}"
@@ -61,6 +57,9 @@ jobs:
     - name: Generate Pagefind search index
       run: npx pagefind --source "public"
     - name: Upload to FTP 
+      env:
+        environment: "FTP_SERVER"
+      
       uses: pressidium/lftp-mirror-action@v1
       with: 
         host: ${{ secrets.FTP_SERVER_ADDRESS }}
