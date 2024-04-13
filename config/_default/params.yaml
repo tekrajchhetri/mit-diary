@@ -50,7 +50,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company. This work is licensed under {license}'
+    notice: '© {year} Tek Raj Chhetri. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
