@@ -1,16 +1,18 @@
 ---
-linkTitle: Documentation
-title: Introduction
+linkTitle: Diary
+title: Getting Started
+date: 2024-02-17
 ---
 
-👋 Welcome to the demo of the Hugo Blox Documentation template!
+Welcome to my MIT diary. This diary (or the website) will provide information about the work that I do as a researcher at the [Senseable Intelligence Group](https://sensein.group/) at the [McGovern Institute for Brain Research](https://mcgovern.mit.edu/) at the [Massachusetts Institute of Technology](https://web.mit.edu/).
 
-<!--more-->
+The purpose of this diary extends beyond mere activity documentation; it functions as a mechanism for monitoring progress, introspection on achievements, and honing concentration. Through consistent and informative updates, my objective is to not only chronicle my personal development but also extend an invitation to you to journey into the dynamic domain of scientific research.
 
-This site is a demo of the Hugo Blox Documentation theme. For the full documentation on how to use this template, refer to the [Hugo Blox Documentation](https://docs.hugoblox.com/).
+I will provide weekly updates detailing the most recent progress and obstacles encountered. So stay tuned! And if you would like to know more about me you can visit my website at [tekrajchhetri.com](https://tekrajchhetri.com/).
 
-## Next
+ 
 
-{{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
-{{< /cards >}}
+ 
+
+
+

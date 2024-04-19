@@ -1,6 +1,6 @@
 ---
-linkTitle: Reference
-title: Reference
+linkTitle: Progress
+title: Weekly Updates
 ---
 
 This section covers reference docs.

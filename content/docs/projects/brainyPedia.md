@@ -1,5 +1,5 @@
 ---
-title: Configuration
+title: BrainyPedia
 weight: 2
 ---
 

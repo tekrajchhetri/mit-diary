@@ -4,33 +4,9 @@ date: 2024-02-17
 weight: 1
 ---
 
-## Quick Start from Template
+Welcome to my MIT diary. This diary (or the website) will provide information about the work that I do as a researcher at the [Senseable Intelligence Group](https://sensein.group/) at the [McGovern Institute for Brain Research](https://mcgovern.mit.edu/) at the [Massachusetts Institute of Technology](https://web.mit.edu/).
 
-{{% steps %}}
+The purpose of this diary extends beyond mere activity documentation; it functions as a mechanism for monitoring progress, introspection on achievements, and honing concentration. Through consistent and informative updates, my objective is to not only chronicle my personal development but also extend an invitation to you to journey into the dynamic domain of scientific research.
 
-### Initialize a new site
+I will provide weekly updates detailing the most recent progress and obstacles encountered. So stay tuned! And if you would like to know more about me you can visit my website at [tekrajchhetri.com](https://tekrajchhetri.com/).
 
-[Click to copy the template on GitHub](https://github.com/new?template_name=theme-documentation&template_owner=HugoBlox)
-
-### Configure your new site
-
-[Configure your site name, description, and menu.](https://docs.hugoblox.com/tutorial/blog/)
-
-### Add your content
-
-[Edit the homepage and add your documentation pages.](https://docs.hugoblox.com/tutorial/blog/)
-
-### Publish your site
-
-[Easily publish your site for free with GitHub Pages](https://docs.hugoblox.com/tutorial/blog/)
-
-{{% /steps %}}
-
-## Next
-
-Let's customize your new site:
-
-{{< cards >}}
-  {{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
-  {{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
-{{< /cards >}}
