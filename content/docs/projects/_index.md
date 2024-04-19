@@ -6,5 +6,5 @@ sidebar:
 ---
 
 {{< cards >}} 
-  {{< card url="brainyPedia" title="BrainyPedia" icon="brain.png" >}}
+  {{< card url="brainyPedia" title="Brainypedia" icon="brain.png" >}}
 {{< /cards >}}
