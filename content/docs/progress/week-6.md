@@ -53,6 +53,7 @@ async def your_endpoint_name(user: Annotated[LoginUserIn, Depends(get_current_us
     #your logic 
 
 ```
+The other updates include the implementation of the query service and ingestion service.
 
 **Codes:**
 
