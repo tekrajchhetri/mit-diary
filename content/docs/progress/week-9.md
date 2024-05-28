@@ -30,7 +30,7 @@ Figure 3: Summary of the GARS model that is connected to the NIMP
 Figure 4: Summary of the ANSRS model that is connected to the NIMP
 
 
-In addition to implementing the improved version of the application and deploying it to AWS, I also worked on the work plan and milestones for our new intern. The work plan document is available on [Google Drive](https://shorturl.at/uGbpD).
+In addition to implementing the improved version of the application and deploying it to AWS, I also worked on the work plan and milestones for our new intern and contributed to the workshop presentation. The work plan document is available on [Google Drive](https://shorturl.at/uGbpD).
 
 
 ## What is the result?
