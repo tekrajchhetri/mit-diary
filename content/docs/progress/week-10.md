@@ -40,7 +40,8 @@ The following are the major results of this week.
 - Optimized SPARQL query, thereby improving the performance.
 - Deployed updated application on AWS and setup [beta.brainkb.org](https://beta.brainkb.org).
 - Configured SSL certificate to enable HTTPS.
-- Improved the entity card design by updating the implementation. 
+- Improved the entity card design.
+- Implemented pagination for the genome annotation. 
 
 
 **Codes:**
