@@ -1,5 +1,5 @@
 ---
-title: BrainyPedia
+title: BrainKB
 weight: 2
 ---
 
