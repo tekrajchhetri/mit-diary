@@ -44,7 +44,7 @@ The major results of this week are as follows:
 
 - [Updated Biorxiv Crawler Code](https://github.com/sensein/crawler_publications) 
 - [KG Validator](https://github.com/sensein/graph_validator/tree/validator)
-- [Updated Ecosystem Diagram](https://drive.google.com/file/d/1WjFh6fWgotVYBEQkayrZzJvSaxVpDZiZ/view?usp=drive_link)
+- [Updated Ecosystem Diagram](https://raw.githubusercontent.com/sensein/brainkb-design-document/design-doc/ecosystem.png)
 - [Transcription of BICAN video using Whisper](https://drive.google.com/drive/folders/1zLIPi50dmROANIZsmI5nQcGXr_XIDCUA?usp=drive_link)
 
 
